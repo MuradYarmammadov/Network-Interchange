@@ -15,6 +15,9 @@
 		FAF80F902B44362F00DC94AB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF80F8F2B44362F00DC94AB /* WebService.swift */; };
 		FAF80F922B443A7100DC94AB /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF80F912B443A7100DC94AB /* UserViewModel.swift */; };
 		FAF80F962B443B7300DC94AB /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF80F952B443B7300DC94AB /* NetworkConstants.swift */; };
+		FAF80F982B443FC600DC94AB /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = FAF80F972B443FC600DC94AB /* users.json */; };
+		FAF80F9A2B44413E00DC94AB /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF80F992B44413E00DC94AB /* LocalService.swift */; };
+		FAF80F9C2B4442AA00DC94AB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF80F9B2B4442AA00DC94AB /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		FAF80F8F2B44362F00DC94AB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		FAF80F912B443A7100DC94AB /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		FAF80F952B443B7300DC94AB /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		FAF80F972B443FC600DC94AB /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		FAF80F992B44413E00DC94AB /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
+		FAF80F9B2B4442AA00DC94AB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		FAF80F7A2B4434AE00DC94AB /* Network Interchange */ = {
 			isa = PBXGroup;
 			children = (
+				FAF80F972B443FC600DC94AB /* users.json */,
 				FAF80F8C2B4434DE00DC94AB /* Service */,
 				FAF80F8B2B4434D900DC94AB /* View */,
 				FAF80F8A2B4434C100DC94AB /* ViewModel */,
@@ -106,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				FAF80F8F2B44362F00DC94AB /* WebService.swift */,
+				FAF80F992B44413E00DC94AB /* LocalService.swift */,
+				FAF80F9B2B4442AA00DC94AB /* NetworkService.swift */,
 				FAF80F952B443B7300DC94AB /* NetworkConstants.swift */,
 			);
 			path = Service;
@@ -169,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF80F982B443FC600DC94AB /* users.json in Resources */,
 				FAF80F832B4434AF00DC94AB /* Preview Assets.xcassets in Resources */,
 				FAF80F802B4434AF00DC94AB /* Assets.xcassets in Resources */,
 			);
@@ -183,9 +193,11 @@
 			files = (
 				FAF80F962B443B7300DC94AB /* NetworkConstants.swift in Sources */,
 				FAF80F7E2B4434AE00DC94AB /* ContentView.swift in Sources */,
+				FAF80F9C2B4442AA00DC94AB /* NetworkService.swift in Sources */,
 				FAF80F8E2B44354A00DC94AB /* UserModel.swift in Sources */,
 				FAF80F7C2B4434AE00DC94AB /* Network_InterchangeApp.swift in Sources */,
 				FAF80F922B443A7100DC94AB /* UserViewModel.swift in Sources */,
+				FAF80F9A2B44413E00DC94AB /* LocalService.swift in Sources */,
 				FAF80F902B44362F00DC94AB /* WebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

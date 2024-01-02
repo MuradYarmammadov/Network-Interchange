@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct NetworkConstants {
-    
-    static let shared = NetworkConstants()
-    
-    private init() {}
+class NetworkConstants {
+
+    struct Paths {
+        static let baseURL = "users"
+    }
     
     struct Urls {
         static let baseURL = "https://jsonplaceholder.typicode.com"
